@@ -14,20 +14,8 @@ flash(1000); flash(1000) ; flash(1000);
 flash(500); flash(500); flash(500); 
 delay(1000);
 
-
-
-
-
-
-
-
-
-
-
-
-
- 
 }
+
 void flash(int duration) {
 
 // so this is flash() function 
@@ -36,14 +24,4 @@ delay(duration); // decide the time you want
 digitalWrite(8 , LOW);
 delay(duration);
 
-
-
-
-
-
-
-
-
-
-  
 }
